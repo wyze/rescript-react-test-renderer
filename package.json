@@ -1,6 +1,6 @@
 {
   "name": "bs-react-test-renderer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BuckleScript bindings for react-test-renderer.",
   "repository": "BuckleTypes/bs-react-test-renderer",
   "author": {
