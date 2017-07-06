@@ -16,7 +16,7 @@ describe "reactTestRenderer" (fun _ => {
   test "toJSON returns test rendered JSON" (fun _ => {
     let component = ReactTestRenderer.create <Tester />;
     let json = ReactTestRenderer.toJSON component;
-    let expected = Js.Json.parse {|
+    let expected = Js.Json.parseExn {|
       {
         "type": "div",
         "props": {},

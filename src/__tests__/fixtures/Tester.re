@@ -1,13 +1,6 @@
-module Tester = {
-  include ReactRe.Component;
-  let name = "Tester";
+let component = ReasonReact.statelessComponent "Tester";
 
-  type props = ();
-
-  let render _ =>
-    <div>(ReactRe.stringToElement "Tester")</div>;
+let make _children => {
+  ...component,
+  render: fun _self => <div> (ReasonReact.stringToElement "Tester") </div>
 };
-
-include ReactRe.CreateComponent Tester;
-
-let createElement = wrapProps ();

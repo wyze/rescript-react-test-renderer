@@ -2,7 +2,7 @@ open Jest;
 open ExpectJs;
 
 external toObject :
-  option ReactRe.reactElement => Js.t {..} = "%identity";
+  option ReasonReact.reactElement => Js.t {..} = "%identity";
 
 let element = {
   "type": "div",

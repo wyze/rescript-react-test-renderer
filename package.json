@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "bs-jest": "git+https://github.com/BuckleTypes/bs-jest.git",
-    "bs-platform": "git+https://github.com/bloomberg/bucklescript.git",
+    "bs-platform": "^1.8.0",
     "changelog-maker": "^2.2.5",
     "execa": "^0.6.3",
     "jest": "^19.0.2",
@@ -41,7 +41,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "read-pkg": "^2.0.0",
-    "reason-react": "^0.1.0",
+    "reason-react": "^0.2.1",
     "rimraf": "^2.6.1"
   },
   "jest": {
