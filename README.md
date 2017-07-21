@@ -29,7 +29,7 @@ $ npm install --save-dev bs-react-test-renderer
 }
 ```
 
-#### With [`bs-jest`](//github.com/BuckleTypes/bs-jest)
+#### With [`bs-jest`](//github.com/reasonml-community/bs-jest)
 
 ```reason
 // Component_test.re
@@ -52,7 +52,7 @@ describe "Component" (fun _ => {
 
 See [`src/__tests__`](//github.com/BuckleTypes/bs-react-test-renderer/tree/master/src/__tests__) for some examples.
 
-For examples with Snapshot testing with [`bs-jest`](//github.com/BuckleTypes/bs-jest), see [`reason-calculator`](//github.com/wyze/reason-calculator).
+For examples with Snapshot testing with [`bs-jest`](//github.com/reasonml-community/bs-jest), see [`reason-calculator`](//github.com/wyze/reason-calculator).
 
 ## Development
 
@@ -78,22 +78,22 @@ $ yarn test
 
 > [Full Change Log](changelog.md)
 
-### [v1.0.1](https://github.com/BuckleTypes/bs-react-test-renderer/releases/tag/v1.0.1) (2017-07-06)
+### [v1.0.1](https://github.com/reasonml-community/bs-react-test-renderer/releases/tag/v1.0.1) (2017-07-06)
 
-* [[`35a6736811`](https://github.com/BuckleTypes/bs-react-test-renderer/commit/35a6736811)] - Update to reason-react v0.2.1 (Cheng Lou)
+* [[`35a6736811`](https://github.com/reasonml-community/bs-react-test-renderer/commit/35a6736811)] - Update to reason-react v0.2.1 (Cheng Lou)
 
 ## License
 
 MIT © [Neil Kistner](https://neilkistner.com)
 
-[travis-image]: https://img.shields.io/travis/BuckleTypes/bs-react-test-renderer.svg?style=flat-square
-[travis-url]: https://travis-ci.org/BuckleTypes/bs-react-test-renderer
+[travis-image]: https://img.shields.io/travis/reasonml-community/bs-react-test-renderer.svg?style=flat-square
+[travis-url]: https://travis-ci.org/reasonml-community/bs-react-test-renderer
 
 [npm-image]: https://img.shields.io/npm/v/bs-react-test-renderer.svg?style=flat-square
 [npm-url]: https://npm.im/bs-react-test-renderer
 
-[deps-image]: https://img.shields.io/david/BuckleTypes/bs-react-test-renderer.svg?style=flat-square
-[deps-url]: https://david-dm.org/BuckleTypes/bs-react-test-renderer
+[deps-image]: https://img.shields.io/david/reasonml-community/bs-react-test-renderer.svg?style=flat-square
+[deps-url]: https://david-dm.org/reasonml-community/bs-react-test-renderer
 
-[depsdev-image]: https://img.shields.io/david/dev/BuckleTypes/bs-react-test-renderer.svg?style=flat-square
-[depsdev-url]: https://david-dm.org/BuckleTypes/bs-react-test-renderer?type=dev
+[depsdev-image]: https://img.shields.io/david/dev/reasonml-community/bs-react-test-renderer.svg?style=flat-square
+[depsdev-url]: https://david-dm.org/reasonml-community/bs-react-test-renderer?type=dev
