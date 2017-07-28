@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "bs-jest": "git+https://github.com/BuckleTypes/bs-jest.git",
-    "bs-platform": "^1.8.0",
+    "bs-platform": "^1.8.2",
     "changelog-maker": "^2.2.5",
     "execa": "^0.6.3",
     "jest": "^19.0.2",
