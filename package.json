@@ -2,7 +2,7 @@
   "name": "bs-react-test-renderer",
   "version": "1.0.1",
   "description": "BuckleScript bindings for react-test-renderer.",
-  "repository": "BuckleTypes/bs-react-test-renderer",
+  "repository": "reasonml-community/bs-react-test-renderer",
   "author": {
     "name": "Neil Kistner",
     "email": "neil.kistner@gmail.com",
@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "bsb -make-world",
-    "changelog": "changelog-maker --filter-release -- BuckleTypes bs-react-test-renderer",
+    "changelog": "changelog-maker --filter-release -- reasonml-community bs-react-test-renderer",
     "clean": "npm-run-all clean:*",
     "clean:bsb": "bsb -clean-world",
     "clean:project": "rimraf lib .merlin",
@@ -31,7 +31,7 @@
     "reason-react": "^0.1.0"
   },
   "devDependencies": {
-    "bs-jest": "git+https://github.com/BuckleTypes/bs-jest.git",
+    "bs-jest": "reasonml-community/bs-jest",
     "bs-platform": "^1.8.2",
     "changelog-maker": "^2.2.5",
     "execa": "^0.6.3",
