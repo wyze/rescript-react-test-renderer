@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "bs-jest": "reasonml-community/bs-jest",
-    "bs-platform": "^1.8.2",
+    "bs-platform": "^1.9.0",
     "changelog-maker": "^2.2.5",
     "execa": "^0.6.3",
     "jest": "^19.0.2",
