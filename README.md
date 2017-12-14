@@ -5,7 +5,7 @@
 [![dependencies][deps-image]][deps-url]
 [![devDependencies][depsdev-image]][depsdev-url]
 
-> [BuckleScript](//github.com/bloomberg/bucklescript) bindings for [react-test-renderer](//github.com/facebook/react/tree/master/packages/react-test-renderer).
+> [BuckleScript](//github.com/BuckleScript/bucklescript) bindings for [react-test-renderer](//github.com/facebook/react/tree/master/packages/react-test-renderer).
 
 ## Installation
 
@@ -31,33 +31,32 @@ $ npm install --save-dev bs-react-test-renderer
 
 #### With [`bs-jest`](//github.com/reasonml-community/bs-jest)
 
-```reason
-// Component_test.re
+```ocaml
+/* Component_test.re */
 
 open Jest;
-open ExpectJs;
 
-let _ =
+describe("Component", () => {
+  open ExpectJs;
 
-describe "Component" (fun _ => {
-  test "renders" (fun _ => {
-    let component = ReactShallowRenderer.renderWithRenderer <Component />;
+  test("renders", () => {
+    let component = ReactShallowRenderer.renderWithRenderer(<Component />);
 
-    expect (Js.Undefined.return component) |> toBeDefined;
+    expect(Js.Undefined.return(component)) |> toBeDefined;
   });
 });
 ```
 
 ## Examples
 
-See [`src/__tests__`](//github.com/BuckleTypes/bs-react-test-renderer/tree/master/src/__tests__) for some examples.
+See [`src/__tests__`](src/__tests__) for some examples.
 
 For examples with Snapshot testing with [`bs-jest`](//github.com/reasonml-community/bs-jest), see [`reason-calculator`](//github.com/wyze/reason-calculator).
 
 ## Development
 
 ```sh
-$ git clone https://github.com/BuckleTypes/bs-react-test-renderer.git
+$ git clone https://github.com/reasonml-community/bs-react-test-renderer.git
 $ cd bs-react-test-renderer
 $ yarn # or `npm install`
 ```

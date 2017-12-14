@@ -15,34 +15,31 @@
   ],
   "scripts": {
     "build": "bsb -make-world",
-    "changelog": "changelog-maker --filter-release -- reasonml-community bs-react-test-renderer",
-    "clean": "npm-run-all clean:*",
+    "clean": "run-p clean:*",
     "clean:bsb": "bsb -clean-world",
     "clean:project": "rimraf lib .merlin",
     "jest": "jest",
     "prebuild": "npm run clean",
-    "test": "npm-run-all build jest",
-    "version": "node scripts/version.js"
+    "pretest": "npm run build",
+    "test": "npm run jest",
+    "version": "write-changelog"
   },
   "dependencies": {
-    "react-test-renderer": "^15.5.4"
+    "react-test-renderer": "^15.6.2"
   },
   "peerDependencies": {
-    "reason-react": "^0.1.0"
+    "reason-react": "^0.3.0 || ^0.2.0"
   },
   "devDependencies": {
-    "bs-jest": "reasonml-community/bs-jest",
-    "bs-platform": "^1.9.0",
-    "changelog-maker": "^2.2.5",
-    "execa": "^0.6.3",
-    "jest": "^19.0.2",
-    "np": "^2.13.1",
+    "bs-jest": "^0.2.0",
+    "bs-platform": "^2.1.0",
+    "jest": "^21.2.1",
     "npm-run-all": "^4.0.2",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "read-pkg": "^2.0.0",
-    "reason-react": "^0.2.1",
-    "rimraf": "^2.6.1"
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "reason-react": "^0.3.0",
+    "rimraf": "^2.6.1",
+    "write-changelog": "^1.1.0"
   },
   "jest": {
     "testPathIgnorePatterns": [

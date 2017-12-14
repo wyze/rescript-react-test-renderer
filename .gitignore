@@ -2,7 +2,9 @@
 node_modules
 
 # Build
+src/**/*.bs.js
 lib
+.bsb.lock
 .merlin
 
 # Logs

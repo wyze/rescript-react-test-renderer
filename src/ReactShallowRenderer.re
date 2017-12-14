@@ -1,15 +1,15 @@
 type t;
 
-external createRenderer :
-  unit => t = "" [@@bs.val] [@@bs.module "react-test-renderer/shallow"];
+[@bs.module "react-test-renderer/shallow"] [@bs.val] external createRenderer :
+  unit => t = "";
 
-external render :
-  t => ReasonReact.reactElement => option ReasonReact.reactElement = "" [@@bs.send];
+[@bs.send] external render :
+  t => ReasonReact.reactElement => option(ReasonReact.reactElement) = "";
 
-external getRenderOutput :
-  t => option ReasonReact.reactElement = "" [@@bs.send];
+[@bs.send] external getRenderOutput :
+  t => option(ReasonReact.reactElement) = "";
 
-external unmount :
-  t => unit = "" [@@bs.send];
+[@bs.send] external unmount :
+  t => unit = "";
 
-let renderWithRenderer = render (createRenderer ());
+let renderWithRenderer = render(createRenderer());
