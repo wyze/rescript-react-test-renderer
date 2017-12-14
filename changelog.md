@@ -1,5 +1,9 @@
 ## Change Log
 
+### [v2.0.0](https://github.com/reasonml-community/bs-react-test-renderer/releases/tag/v2.0.0) (2017-12-14)
+
+* [[`7e7404665f`](https://github.com/reasonml-community/bs-react-test-renderer/commit/7e7404665f)] - Upgrade react-test-renderer (#2) (Rolf Erik Lekang)
+
 ### [v1.1.0](https://github.com/reasonml-community/bs-react-test-renderer/releases/tag/v1.1.0) (2017-12-14)
 
 * [[`63a4beca5c`](https://github.com/reasonml-community/bs-react-test-renderer/commit/63a4beca5c)] - Cleanup project to cut a final release for React 15 support (Neil Kistner)
