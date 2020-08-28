@@ -4,10 +4,10 @@ type t;
   unit => t = "createRenderer";
 
 [@bs.send] external render :
-  t => ReasonReact.reactElement => option(ReasonReact.reactElement) = "render";
+  t => React.element => option(React.element) = "render";
 
 [@bs.send] external getRenderOutput :
-  t => option(ReasonReact.reactElement) = "getRenderOutput";
+  t => option(React.element) = "getRenderOutput";
 
 [@bs.send] external unmount :
   t => unit = "unmount";

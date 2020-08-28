@@ -1,7 +1,7 @@
 type t;
 
 [@bs.module "react-test-renderer"] [@bs.val] external create :
-  ReasonReact.reactElement => t = "create";
+  React.element => t = "create";
 
 [@bs.send] external toJSON :
   t => Js.Json.t = "toJSON";
