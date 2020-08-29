@@ -1,9 +1,8 @@
 # bs-react-test-renderer
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][actions-image]][actions-url]
 [![npm][npm-image]][npm-url]
 [![dependencies][deps-image]][deps-url]
-[![devDependencies][depsdev-image]][depsdev-url]
 
 > [BuckleScript](//github.com/BuckleScript/bucklescript) bindings for [react-test-renderer](//github.com/facebook/react/tree/master/packages/react-test-renderer).
 
@@ -85,14 +84,11 @@ $ yarn test
 
 MIT © [Neil Kistner](https://neilkistner.com)
 
-[travis-image]: https://img.shields.io/travis/reasonml-community/bs-react-test-renderer.svg?style=flat-square
-[travis-url]: https://travis-ci.org/reasonml-community/bs-react-test-renderer
+[actions-image]: https://img.shields.io/github/workflow/status/reasonml-community/bs-react-test-renderer/CI.svg?style=flat-square
+[actions-url]: https://github.com/reasonml-community/bs-react-test-renderer/actions
 
 [npm-image]: https://img.shields.io/npm/v/bs-react-test-renderer.svg?style=flat-square
 [npm-url]: https://npm.im/bs-react-test-renderer
 
 [deps-image]: https://img.shields.io/david/reasonml-community/bs-react-test-renderer.svg?style=flat-square
 [deps-url]: https://david-dm.org/reasonml-community/bs-react-test-renderer
-
-[depsdev-image]: https://img.shields.io/david/dev/reasonml-community/bs-react-test-renderer.svg?style=flat-square
-[depsdev-url]: https://david-dm.org/reasonml-community/bs-react-test-renderer?type=dev
