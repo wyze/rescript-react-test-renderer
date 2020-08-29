@@ -76,9 +76,13 @@ $ yarn test
 
 > [Full Change Log](changelog.md)
 
-### [v2.0.0](https://github.com/reasonml-community/bs-react-test-renderer/releases/tag/v2.0.0) (2017-12-14)
+### [v3.0.0](https://github.com/reasonml-community/bs-react-test-renderer/releases/tag/v3.0.0) (2020-08-28)
 
-* [[`7e7404665f`](https://github.com/reasonml-community/bs-react-test-renderer/commit/7e7404665f)] - Upgrade react-test-renderer (#2) (Rolf Erik Lekang)
+* Upgrade to my latest release tools ([@wyze](https://github.com/wyze) in [#19](https://github.com/reasonml-community/bs-react-test-renderer/pull/19))
+* Upgrade dependencies ([@wyze](https://github.com/wyze) in [#18](https://github.com/reasonml-community/bs-react-test-renderer/pull/18))
+* Migrate to JSX v3 ([@rusty-key](https://github.com/rusty-key) in [#10](https://github.com/reasonml-community/bs-react-test-renderer/pull/10))
+* Upgrade CI to use Current and LTS Node versions ([@wyze](https://github.com/wyze) in [#11](https://github.com/reasonml-community/bs-react-test-renderer/pull/11))
+* Fixes Bucklescript v7 warnings ([@superherointj](https://github.com/superherointj) in [#4](https://github.com/reasonml-community/bs-react-test-renderer/pull/4))
 
 ## License
 
