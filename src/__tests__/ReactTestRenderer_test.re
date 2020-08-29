@@ -10,11 +10,13 @@ describe("reactTestRenderer", () => {
 
     expect(toObject(component)) |> toContainProperties(
       [|
+        "_Scheduler",
         "root",
         "toJSON",
         "toTree",
         "update",
         "unmount",
+        "unstable_flushSync",
         "getInstance"
      |]
     );
