@@ -4,7 +4,7 @@
     "-bs-super-errors"
   ],
   "reason": {
-    "react-jsx": 2
+    "react-jsx": 3
   },
   "refmt": 3,
   "package-specs": {
@@ -16,7 +16,7 @@
     "reason-react"
   ],
   "bs-dev-dependencies": [
-    "bs-jest"
+    "@glennsl/bs-jest"
   ],
   "sources": [
     {
